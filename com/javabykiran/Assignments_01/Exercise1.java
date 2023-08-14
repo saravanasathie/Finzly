@@ -1,7 +1,5 @@
   package com.javabykiran.Assignments_01;
 
-  import jdk.nashorn.internal.ir.Block;
-
   public class Exercise1 {
     void show(String p) {
         System.out.println(111);
