@@ -1,0 +1,54 @@
+
+class Student{
+	
+	int age;
+	String location;
+	
+	Phone ph;
+	Admission ad;
+	IdCard id;
+	Certificates c;
+	Fees f;
+	Attendance a;
+	Department d;
+	Labs l;
+	Canteen ct;	
+}
+class Phone{
+	int landline;
+	int[] mob;
+}
+class CPhone{
+	int landline;
+
+}
+class Admission{
+	int roll;
+	
+}
+
+class Department{
+	DList dl;
+	
+}
+class DList{
+	String[] Department;
+}
+class Labs{
+	Mechatronics mc;
+	Mechanical m;
+	ComputerScience cs;
+	ElectricalandElectronics e;
+	Information Technology i;
+	BioTechnology b;
+
+}
+class Canteen{
+	CPhone cp;
+	Stock_Present sp;
+	
+}
+class Stock_Present{
+	String[] Stocks;
+	
+}
